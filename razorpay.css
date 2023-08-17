@@ -1,27 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
 .coreFeaturesBg {
-    padding-top: 12rem;
-    padding-bottom: 12rem;
-    background-size: 100% 100%;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+  background-size: 100% 100%;
 }
 
 .ctaBg {
-
-    background-size: 100% 100%;
+  background-size: 100% 100%;
 }
 
 .companiesList {
-
-    animation: movecompaney 20s linear infinite;
+  animation: movecompaney 20s linear infinite;
 }
 
 @keyframes movecompaney {
-    0% {
-        top: 0;
-    }
+  0% {
+    top: 0;
+  }
 
-    100% {
-
-        top: -100%;
-    }
-
+  100% {
+    top: -100%;
+  }
 }
