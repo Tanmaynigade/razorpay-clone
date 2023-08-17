@@ -1,0 +1,27 @@
+.coreFeaturesBg {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background-size: 100% 100%;
+}
+
+.ctaBg {
+
+    background-size: 100% 100%;
+}
+
+.companiesList {
+
+    animation: movecompaney 20s linear infinite;
+}
+
+@keyframes movecompaney {
+    0% {
+        top: 0;
+    }
+
+    100% {
+
+        top: -100%;
+    }
+
+}
